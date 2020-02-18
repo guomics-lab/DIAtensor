@@ -55,7 +55,7 @@ D20181207yix_HCC_SW_T_41A-HCC_yix_9
 _win_[number](_[number])
 ```
 
-MS2 win 20: _win_20
+MS2 win 20: _win_20  
 MS2 win 1~66:  win_1_66
 
 3. gradient time
@@ -69,7 +69,7 @@ Effective gradient from 4 to 48 minutes:  _grad_4_48
 _cycle_[number]
 ```
 
-Align with 1400: _cycle_1400
+Align with 1400: _cycle_1400  
 No alignment in cycles: _cycle_full
 
 5. m/z range
@@ -115,7 +115,7 @@ Commands can be supplied in arbitrary order.
 
 Input address of the mzXML raw file.
 
-```r
+```
 -o / --output <path>
 ```
 
@@ -223,7 +223,7 @@ DIAtensor.exe -i E: /HCCSW -o E: /tensor -T tensor --max_mz 2000 -a -g 0 45 -b 0
 
 Replace <file_path> with your own file path, and run following codes in Python 3.6+ environment with Numpy 1.16.2+ installed.
 
-```
+```python
 import numpy as np
 diat = np.load("<file_path>.diat")
 ```
