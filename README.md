@@ -29,17 +29,17 @@ mzXML file convertion: the Peak Picking operation should be checked in the Mscon
 
 1. images (*.png / *.bmp)
 
-dimension _y_ : mz index (from low to high)
-dimension _x_ : cycle index (from low to high)
+dimension _y_ : mz index (from low to high)  
+dimension _x_ : cycle index (from low to high)  
 
 2. tensors (*.diat)
 
 dtype : uint8
 
-dimension _z_ : window index (from low to high)
-dimension _y_ : mz index (from low to high)
-dimension _x_ : cycle index (from low to high)
-dimension _color_ : discretized non-zero intensity value mapping to 1~255
+dimension _z_ : window index (from low to high)  
+dimension _y_ : mz index (from low to high)  
+dimension _x_ : cycle index (from low to high)  
+dimension _color_ : discretized non-zero intensity value mapping to 1~255  
 
 #### File naming
 
@@ -82,8 +82,8 @@ _mz_400_1500
 ```
 _bin_[number]
 ```
-Binning m / z with 0.5Da accuracy: _bin_0.5
-Binning m / z with 0.01 Da and main and auxiliary peak methods: _bin_peaks
+Binning m / z with 0.5Da accuracy: _bin_0.5  
+Binning m / z with 0.01 Da and main and auxiliary peak methods: _bin_peaks  
 
 7. RT pool
 ```
@@ -96,7 +96,7 @@ _[pool method]_[pool width]_[pool height]
 _[color](_[color])_[number]
 ```
 
-Black to white 255 gradient: _Gray_255
+Black to white 255 gradient: _Gray_255  
 Green to red 255 gradient: _Gr_Re_255
 
 ### Command-line tool usage
