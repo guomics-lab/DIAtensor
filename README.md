@@ -11,6 +11,7 @@ Please also check the commands listed below.
 [bioRxiv.org](http://bioRxiv.org)
 
 ### System requirement
+Version: 1.0.0 build -212
 Operating System: Windows 10
 Minimal RAM: 16GB 
 
