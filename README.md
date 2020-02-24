@@ -1,6 +1,6 @@
 # DIA Tensor
 
-**Version: 1.1.0 build -214** 
+**Version: 1.1.1 build -218** 
 
 DIAtensor is software tool to convert mzXML of data-independent acquisition (DIA) mass spectrometry (MS) to DIA tensor.
 This tool is based on Python, which can read mzXML mass spectrometry data, check the integrity of the data, pool the mass-to-charge ratio and retention time, and perform frequency division bin coloring such as intensity values.
@@ -185,7 +185,7 @@ This parameter records the binning accuracy of m / z (unit is Da), the default i
 --pool_mz
 ```
 
-When this parameter is used and the binning accuracy parameter bin is 0.01 and the minimum ms2 m / z parameter min_mz is 400, pooling of the main and auxiliary peaks in the m / z dimension will be performed.
+When this parameter is used and the binning accuracy parameter bin is 0.01 and the minimum ms2 m / z is 400, pooling of the main and auxiliary peaks in the m / z dimension will be performed.
 
 **Commands below only available if output type is ‘image’:**
 
