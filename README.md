@@ -1,6 +1,6 @@
 # DIA Tensor
 
-**Version: 1.1.1 build -218** 
+**Version: 1.1.2 build -218** 
 
 DIAtensor is software tool to convert mzXML of data-independent acquisition (DIA) mass spectrometry (MS) to DIA tensor.
 This tool is based on Python, which can read mzXML mass spectrometry data, check the integrity of the data, pool the mass-to-charge ratio and retention time, and perform frequency division bin coloring such as intensity values.
@@ -23,7 +23,6 @@ Minimal RAM: 16GB
 3. change '--pool_rt' option to images only.
 4. merge '--min_mz' and '--max_mz' options, use '--mz' instead.
 5. lift mzxml file reading speed.
-
 
 ### Run
 1. Open the Windows console CMD
