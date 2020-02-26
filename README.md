@@ -1,6 +1,6 @@
 # DIA Tensor
 
-**Version: 1.1.2 build -218** 
+**Version: 1.1.2 build -220** 
 
 DIAtensor is software tool to convert mzXML of data-independent acquisition (DIA) mass spectrometry (MS) to DIA tensor.
 This tool is based on Python, which can read mzXML mass spectrometry data, check the integrity of the data, pool the mass-to-charge ratio and retention time, and perform frequency division bin coloring such as intensity values.
@@ -14,20 +14,27 @@ Please also check the commands listed below.
 [bioRxiv.org](http://bioRxiv.org)
 
 ### System requirement 
-Operating System: Windows 10  
-Minimal RAM: 16GB 
+Operating System:
+- Windows: 
+  - Windows 10 64-bit
+- Linux: 
+  - Centos 7.4 64-bit
+  - Ubuntu 18.04 64-bit
+  
+RAM: 
+- Minimum: 16GB
+- Recommend: 32GB and upper
 
-### New since version 1.0.0
-1. add zip compression to .diat.
-2. change data type of  the .diat format file from uint8 to uint16 / uint32.
-3. change '--pool_rt' option to images only.
-4. merge '--min_mz' and '--max_mz' options, use '--mz' instead.
-5. lift mzxml file reading speed.
+### Run on Windows
+1. Download DIAtensor.exe from github
+2. Open the Windows console CMD and switch to the directory including DIAtensor.exe
+3. Run the DIAtensor.exe with parameters(```DIAtensor.exe [paraneters]```)
 
-### Run
-1. Open the Windows console CMD
-1. Change the directory to the path with DIAtensor.exe
-1. Run the DIAtensor.exe with parameters
+### Run on Linux
+1. Download DIAtensor.tar.gz from github
+2. Unzip the file (```tar zxvf DIAtensor.tar.gz```)
+3. Open the Linux terminal and switch to the directory including DIAtensor
+4. Run the DIAtensor with parameters(```./DIAtensor [paraneters]```)
 
 ### Input files
 Raw data files: .mzXML  
@@ -212,7 +219,7 @@ This parameter determines whether the output image is a visual image (view) or a
 
 This parameter determines whether the output image is a png or a bmp.The default is png.
 
-#### Example:
+#### Example on Windows:
 
 ##### Generate tensor (save *.diat)
 
