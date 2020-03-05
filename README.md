@@ -1,13 +1,14 @@
 # DIA Tensor
 
-**Version: 1.1.2 build -220** 
+**Version: 1.1.3 build -228** 
 
 DIAtensor is software tool to convert mzXML of data-independent acquisition (DIA) mass spectrometry (MS) to DIA tensor.
 This tool is based on Python, which can read mzXML mass spectrometry data, check the integrity of the data, pool the mass-to-charge ratio and retention time, and perform frequency division bin coloring such as intensity values.
 With DIA Tensor, a classification deep learning model without the need for a large amount of extraction library chromatographic peaks to identify peptides.
 
-### Download: [https://github.com/guomics-lab/DIAtensor](https://github.com/guomics-lab/DIAtensor)
-DIAtensor manual: [https://github.com/guomics-lab/DIAtensor](https://github.com/guomics-lab/DIAtensor)  
+### Download
+Software: [https://github.com/guomics-lab/DIAtensor/releases](https://github.com/guomics-lab/DIAtensor/releases)
+Manual: [https://github.com/guomics-lab/DIAtensor/blob/master/README.md](https://github.com/guomics-lab/DIAtensor/blob/master/README.md)  
 Please also check the commands listed below.
 
 ### Publication
@@ -84,10 +85,9 @@ Effective gradient from 4 to 48 minutes:  _grad_4_48
 _cycle_[number]
 ```
 
-Alignment in cycles with 1400: _cycle_1400  
-No alignment in cycles: _cycle_full
+cycle 1400: _cycle_1400  
 
-5. m/z range
+1. m/z range
 ```
 _mz_[number]_[number]
 ```
@@ -137,7 +137,7 @@ Commands can be supplied in arbitrary order.
 
 Input address of the mzXML raw file.
 
-```r
+```
 -o / --output <path>
 ```
 
@@ -173,7 +173,7 @@ Effective gradient time of the dataset.
 -a / --auto_cycle
 ```
 
-When this parameter is used, the cycle number alignment value is automatically calculated and aligned on the data set. This parameter will save the input dataset cycle distribution (*.csv) into the output folder. This parameter is mutually exclusive with manual_cycle.
+When this parameter is used, the cycle number alignment value is automatically calculated and aligned on the data set. This parameter will save the input dataset cycle distribution (cycle.csv / cycle_grad.csv) into the output folder. This parameter is mutually exclusive with manual_cycle.
 
 ```
 -c / --manual_cycle <int>
