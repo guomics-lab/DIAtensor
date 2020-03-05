@@ -7,7 +7,7 @@ This tool is based on Python, which can read mzXML mass spectrometry data, check
 With DIA Tensor, a classification deep learning model without the need for a large amount of extraction library chromatographic peaks to identify peptides.
 
 ### Download
-Software: [https://github.com/guomics-lab/DIAtensor/releases](https://github.com/guomics-lab/DIAtensor/releases)
+Software: [https://github.com/guomics-lab/DIAtensor/releases](https://github.com/guomics-lab/DIAtensor/releases)  
 Manual: [https://github.com/guomics-lab/DIAtensor/blob/master/README.md](https://github.com/guomics-lab/DIAtensor/blob/master/README.md)  
 Please also check the commands listed below.
 
