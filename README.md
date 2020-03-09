@@ -12,7 +12,7 @@ Manual: [https://github.com/guomics-lab/DIAtensor/blob/master/README.md](https:/
 Please also check the commands listed below.
 
 ### Publication
-**Phenotype Prediction using a Tensor Representation and Deep Learning from Data Independent Acquisition Mass Spectrometry**
+**Phenotype Prediction using a Tensor Representation and Deep Learning from Data Independent Acquisition Mass Spectrometry**  
 [https://www.biorxiv.org/content/10.1101/2020.03.05.978635v1](https://www.biorxiv.org/content/10.1101/2020.03.05.978635v1)
 
 ### System requirement 
