@@ -12,8 +12,8 @@ Manual: [https://github.com/guomics-lab/DIAtensor/blob/master/README.md](https:/
 Please also check the commands listed below.
 
 ### Publication
-**Phenotype Prediction using a Tensor Representation and Deep Learning from Data Independent Acquisition Mass Spectrometry**  
-[https://www.biorxiv.org/content/10.1101/2020.03.05.978635v1](https://www.biorxiv.org/content/10.1101/2020.03.05.978635v1)
+**Phenotype Classification using Proteome Data in a Data-Independent Acquisition Tensor Format**  
+[https://pubs.acs.org/doi/10.1021/jasms.0c00254?fig=tgr1&ref=pdf](https://pubs.acs.org/doi/10.1021/jasms.0c00254?fig=tgr1&ref=pdf)
 
 ### System requirement 
 Operating System:
